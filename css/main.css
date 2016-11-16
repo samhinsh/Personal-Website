@@ -1,0 +1,99 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+
+@font-face {
+    font-family: 'AVNHeavy';
+        src: url('../fonts/AvenirNext/AvenirNextHeavy.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'AVNDB';
+        src: url('../fonts/AvenirNext/AvenirNextDemiBold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'AVNRegular';
+        src: url('../fonts/AvenirNext/AvenirNextRegular.ttf') format('truetype');
+
+}
+
+
+/* Theme color: specific styles */
+
+html { 
+    background-color: #fff; 
+    overflow: hidden;
+
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'AVNHeavy', sans-serif;
+    position: relative;
+}
+
+
+div {
+    margin: 0 auto;
+    display: table;
+}
+
+div#main{
+}
+
+div#links {
+    padding-top: 5em;
+}
+
+
+h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 4em;
+    letter-spacing: .15em;
+    font-weight: medium;
+}
+
+h2 {
+    font-family: 'AVNDB', sans-serif;
+    font-size: 1.5em;
+
+    margin: 0 auto;
+    display: table;
+}
+
+
+#links h2 {
+    color: #808080;
+}
+
+h3 {
+    font-family: 'AVNRegular', sans-serif;
+    font-size: 1em;
+    
+    margin: 0 auto;
+    display: table;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+a {
+    font-family: 'AVNREgular', sans-serif;
+    font-size: .75em;
+    letter-spacing: .25em;
+    color: #808080;
+}
+
+iframe {
+    margin: 0 auto;
+    display: table;
+
+    padding-top: 2em;
+
+}
+
