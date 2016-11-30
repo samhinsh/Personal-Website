@@ -1,7 +1,8 @@
-FROM nginx:alpine
-RUN echo "Hey Sam, this Dockerfile is running!"
-COPY . /usr/share/nginx/html
+FROM node:7.2.0-alpine
 
-EXPOSE 8080
+WORKDIR /app
+COPY . .
+RUN npm install --production
 
-ENTRYPOINT ["nginx"]
+# if we don't use this specific form, SIGINT/SIGTERM doesn't get forwarded
+CMD node index.js

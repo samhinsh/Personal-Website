@@ -1,0 +1,19 @@
+{
+  "name": "hello-expressjs",
+  "version": "1.0.0",
+  "description": "A sample express.js application that can be deployed to Skyliner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samhinsh/Personal-Website.git"
+  },
+  "author": "Samuel Hinshelwood <shinshelwood@apple.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
