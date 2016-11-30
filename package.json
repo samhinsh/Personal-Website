@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/samhinsh/Personal-Website.git"
   },
-  "author": "Samuel Hinshelwood <shinshelwood@apple.com>",
+  "author": "Samuel Hinshelwood <samhinsh@gmail.com",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
